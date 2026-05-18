@@ -55,15 +55,15 @@ The PostgreSQL layer manages relational state using the following primary tables
 
 | Method | Endpoint | Description | Access |
 | :--- | :--- | :--- | :--- |
-| **POST** | `/auth/register` | Register a new user profile | [cite_start]Public  |
-| **POST** | `/auth/login` | Authenticate user & return JWT token | [cite_start]Public  |
-| **GET** | `/people` | Retrieve team, faculty, and alumni | [cite_start]Public  |
-| **POST** | `/people` | Create a new team profile | [cite_start]Admin Only  |
-| **GET** | `/news` | Fetch published news/tweets | [cite_start]Public  |
-| **POST** | `/news` | Approve and publish a news record | [cite_start]Admin Only  |
-| **PUT/DELETE**| `/publications/:id`| Modify or archive a publication record | [cite_start]Admin Only |
-| **POST** | `/contact` | Submit a public visitor message | [cite_start]Public  |
-| **GET** | `/contact` | Review submitted contact inquiries | [cite_start]Admin Only  |
+| **POST** | `/auth/register` | Register a new user profile | Public  |
+| **POST** | `/auth/login` | Authenticate user & return JWT token | Public  |
+| **GET** | `/people` | Retrieve team, faculty, and alumni | Public  |
+| **POST** | `/people` | Create a new team profile | Admin Only  |
+| **GET** | `/news` | Fetch published news/tweets |Public  |
+| **POST** | `/news` | Approve and publish a news record | Admin Only  |
+| **PUT/DELETE**| `/publications/:id`| Modify or archive a publication record | Admin Only |
+| **POST** | `/contact` | Submit a public visitor message | Public  |
+| **GET** | `/contact` | Review submitted contact inquiries | Admin Only  |
 
 ---
 
