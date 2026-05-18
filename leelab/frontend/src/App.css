@@ -1,0 +1,11 @@
+/* ✅ Make navbar transparent */
+.navbar {
+  background: transparent !important;
+  box-shadow: none !important;
+  transition: background 0.3s ease;
+}
+
+/* Optional: Make navbar solid after scroll */
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.7) !important;
+}

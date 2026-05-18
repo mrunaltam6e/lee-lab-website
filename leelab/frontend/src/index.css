@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #0b0c10;
+  color: #f0f0f0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar customization */
+.navbar-dark {
+  background-color: #1b2838 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #1b2838;
+  color: #ccc;
+}
+
+/* Custom link hover color */
+.nav-link:hover {
+  color: #00e6e6 !important;
+}
